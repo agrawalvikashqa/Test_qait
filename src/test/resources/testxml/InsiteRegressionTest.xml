@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="InsiteRegressionTest">
+   <test name="AdminAddDistinctAndInlineActivity">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.InsiteScenarios.TC01_AdminAddDistinctAndInlineActivity" />
+    </classes>
+  </test>
+  <test name="StudentVerifyDistinctAndInlineInsiteActivity">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.InsiteScenarios.TC02_StudentVerifyDistinctAndInlineInsiteActivity" />
+    </classes>
+  </test>
+  <test name="InstructorDeleteDistinctAndInlineInsiteActivity">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.InsiteScenarios.TC03_InstructorDeleteDistinctAndInlineInsiteActivity" />
+    </classes>
+  </test>
+ </suite>
+

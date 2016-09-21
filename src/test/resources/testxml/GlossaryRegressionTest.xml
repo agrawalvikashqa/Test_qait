@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTest">
+   <test name="GlossaryAppTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.GlossaryScenarios.TC01_GlossaryAppTest" />
+      <class name="com.cengage.mindtap.tests.Mindapps.GlossaryScenarios.Glossary_Inst_Test" />
+    </classes>
+  </test>
+</suite>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTest">
+   <test name="InstructorIsAbleToPostTheMessageTest">
+    <classes>
+
+      <class name="com.cengage.mindtap.tests.Mindapps.MessageCenterScenarios.TC01_InstructorIsAbleToPostTheMessageTest" />
+
+      <class name="com.cengage.mindtap.tests.Mindapps.MessageCenterScenarios.InstructorIsAbleToPostTheMessageTest" />
+
+    </classes>
+  </test>
+     <test name="StudentIsAbleToViewPostMessagesTest">
+    <classes>
+
+      <class name="com.cengage.mindtap.tests.Mindapps.MessageCenterScenarios.TC02_StudentIsAbleToViewPostMessagesTest" />
+
+      <class name="com.cengage.mindtap.tests.Mindapps.MessageCenterScenarios.StudentIsAbleToViewPostMessagesTest" />
+
+    </classes>
+  </test>
+</suite>
+

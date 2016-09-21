@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="StudyHubRegressionTest">
+   <test name="StudyHubAppInstructorSmokeTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.StudyHub.TC_01_StudyHubAppInstructorSmokeTest" />
+    </classes>
+  </test>
+  <test name="StudentStudyGuideRegressionTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.StudyHub.TC_02_StudentStudyGuideRegressionTest" />
+    </classes>
+  </test>
+  <test name="BookMarksRegressionTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.StudyHub.TC_03_BookMarksRegressionTest" />
+    </classes>
+  </test>
+  <test name="DeleteRegressionTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.StudyHub.TC_04_DeleteRegressionTest" />
+    </classes>
+  </test>
+  <test name="HideRegressionTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.StudyHub.TC_05_HideRegressionTest" />
+    </classes>
+  </test>
+</suite>
+

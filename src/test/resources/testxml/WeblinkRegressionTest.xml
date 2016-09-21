@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTest">
+   <test name="UserAddLaunchAndEditDistinctWebLinkActivityTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.WeblinkScenarios.TC01_UserAddLaunchAndEditDistinctWebLinkActivityTest" />
+    </classes>
+  </test>
+   <test name="UserAddLaunchAndEditInlineWebLinkActivityTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.WeblinkScenarios.TC02_UserAddLaunchAndEditInlineWebLinkActivityTest" />
+    </classes>
+  </test>\
+   <test name="InstructorDeleteActivityTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.WeblinkScenarios.TC03_InstructorDeleteActivityTest" />
+    </classes>
+  </test> 
+  <test name="TARolesCapabilityToManageLPNTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.WeblinkScenarios.TC04_TARolesCapabilityToManageLPNTest" />
+    </classes>
+  </test> 
+  <test name="TARolesNoCapabilityToManageLPNTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.WeblinkScenarios.TC05_TARolesNoCapabilityToManageLPNTest" />
+    </classes>
+  </test> 
+</suite>
+

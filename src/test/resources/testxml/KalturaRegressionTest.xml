@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTest">
+   <test name="AddDistinctTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.KalturaScenarios.TC01_AddDistinctKalturaActivityTest" />
+    </classes>
+  </test>
+     <test name="VerifyAddDistinctTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.KalturaScenarios.TC02_VerifyAddDistinctKalturaActivityTest" />
+    </classes>git pull
+  </test>
+     <test name="VerifyDeleteDistinctTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.KalturaScenarios.TC03_VerifyDeleteDistinctKalturaActivityTest" />
+    </classes>
+  </test>
+  <test name="AddInlineKalturaActivityTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.KalturaScenarios.TC04_AddInlineKalturaActivityTest" />
+    </classes>
+  </test>
+  <test name="InstructorAppDockScenariosTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.KalturaScenarios.TC05_InstructorAppDockScenariosTest" />
+    </classes>
+  </test>
+  <test name="StudnetScenariosTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.KalturaScenarios.TC06_StudnetScenariosTest" />
+    </classes>
+  </test>
+</suite>
+

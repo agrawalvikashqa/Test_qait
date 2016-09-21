@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="QuestiaAppRegressionTest">
+   <test name="VerifyQuestiaAppTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.QuestiaAppScenarios.TC01_VerifyQuestiaAppTest" />
+    </classes>
+  </test>
+  <test name="AddEditDistinctQuestiaAppTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.QuestiaAppScenarios.TC02_AddEditDistinctQuestiaAppTest" />
+    </classes>
+  </test>
+  <test name="AddEditInlineQuestiaAppTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.QuestiaAppScenarios.TC03_AddEditInlineQuestiaAppTest" />
+    </classes>
+  </test>
+  <test name="StudentLaunchQuestiaActivity">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.QuestiaAppScenarios.TC04_StudentLaunchQuestiaActivity" />
+    </classes>
+  </test>
+  <test name="TALaunchQuestiaActivity">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.QuestiaAppScenarios.TC05_TALaunchQuestiaActivity" />
+    </classes>
+  </test>
+  <test name="InstructorDeleteQuestiaActivityTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.QuestiaAppScenarios.TC06_InstructorDeleteQuestiaActivityTest" />
+    </classes>
+  </test>
+  
+ </suite>
+

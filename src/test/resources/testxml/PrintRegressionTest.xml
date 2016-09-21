@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PrintRegressionTest">
+   <test name="InstructorPrintReader">
+    <classes>
+      <class name="com.cengage.mindtap.tests.ReaderScenarios.TC_05_InstructorPrintReaderScenarios"/>
+    </classes>
+  </test>
+  <test name="StudentPrintReader">
+    <classes>
+      <class name="com.cengage.mindtap.tests.ReaderScenarios.TC_06_StudentPrintReaderScenarios"/>
+    </classes>
+  </test>
+  
+</suite>
+

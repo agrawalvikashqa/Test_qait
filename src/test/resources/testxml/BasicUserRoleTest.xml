@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="basicUserRoleTest">
+   <test name="AdminRoleScenarios">
+    <classes>
+      <exclude name="com.cengage.mindtap.tests.UserRoles.AdminRoleScenarios.AdminRoleSmokeTest" ></exclude>
+    </classes>
+  </test>
+  <test name="InstructorRoleScenarios">
+    <classes>
+      <class name="com.cengage.mindtap.tests.UserRoles.InstructorRoleScenarios.DashboardViewTest" />
+      <class name="com.cengage.mindtap.tests.UserRoles.InstructorRoleScenarios.UserMenuTest" />
+      <class name="com.cengage.mindtap.tests.UserRoles.InstructorRoleScenarios.AddEditDeletetheUnitFolderAndActivityInDashboardTest" />
+    </classes>
+  </test>
+  <test name="StudentRoleScenarios">
+    <classes>
+      <class name="com.cengage.mindtap.tests.UserRoles.StudentRoleScenarios.DashboardViewTest" />
+      <class name="com.cengage.mindtap.tests.UserRoles.StudentRoleScenarios.LaunchAppsFromAppDockTest"/>
+    </classes>
+  </test>
+</suite>
+

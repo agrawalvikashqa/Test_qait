@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HideAndShowRegressionTest">
+   <test name="AdminAADistinctActivity">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.HideAndShowScenarios.TC01_AdminAADistinctActivityTest" />
+    </classes>
+  </test>
+  <test name="CheckInstructorPermissions">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.HideAndShowScenarios.TC02_CheckInstructorPermissions" />
+    </classes>
+  </test>
+  <test name="VerifyHiddenActivitiesFromStudent">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.HideAndShowScenarios.TC03_VerifyHiddenActivitiesFromStudent" />
+    </classes>
+  </test>
+  <test name="ShowHiddenActivitiesFromInstructor">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.HideAndShowScenarios.TC04_ShowHiddenActivitiesFromInstructor" />
+    </classes>
+  </test>
+  <test name="AttemptActivitiesFromStudent">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.HideAndShowScenarios.TC05_AttemptActivitiesFromStudent" />
+    </classes>
+  </test>
+  <test name="HideAndDeleteActivitiesFromInstructor">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.HideAndShowScenarios.TC06_HideAndDeleteActivitiesFromInstructor" />
+    </classes>
+  </test>
+ </suite>
+

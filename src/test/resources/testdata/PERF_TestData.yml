@@ -1,0 +1,33 @@
+ProjectName: MindTap Platform QA
+base_url: http://mindtap-performancetuning.cengage.com/static/nb/login.html
+environment: http://mindtap-performancetuning.cengage.com
+sso_url: http://s-c-login.cengage.com/
+
+users:
+  admin:
+    username: automationadmin@qait.com
+    password: A111111
+  instructor:
+    username: instructor_april_2016@swlearning.com
+    password: A111111
+  student:
+    username: student_april_2016@swlearning.com
+    password: A111111
+  vendor:
+    username: mt_automation1@swlearning.com
+    password: A111111
+
+nextBooks:
+    masterBook:
+        bookName: Automation master Test Book
+        description: Created by automation script
+        coreTextISBN: 9781133314677
+        mode1: course
+        mode2: reader
+    courseBookATP:
+        bookName: Mankiv - Automation Test Book - ATP
+        coreTextISBN: 9781285165875
+        courseKey: MTPPCFJPQJXV
+        appName: atp
+        QuestionCount: 100
+        AttemptQueCount: 6

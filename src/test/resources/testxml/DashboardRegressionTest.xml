@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DashBoardRegressionTest">
+   <test name="AveragewidgetTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.DashboardScenarios.TC_01_AveragewidgetTest" />
+    </classes>
+  </test>
+  <test name="AveragewidgetScoreUpdateTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.DashboardScenarios.TC_02_AveragewidgetScoreUpdateTest" />
+    </classes>
+  </test>
+  <test name="WeekviewAsInstructorTest">
+    <classes>
+      <Exclude name="com.cengage.mindtap.tests.DashboardScenarios.TC_03_WeekviewAsInstructorTest" ></Exclude>
+    </classes>
+  </test>
+  <test name="WeekviewAsStudentTest">
+    <classes>
+      <Exclude name="com.cengage.mindtap.tests.DashboardScenarios.TC_04_WeekviewAsStudentTest" ></Exclude>
+    </classes>
+  </test>
+  <test name="PerformanceWidgetAsStudentTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.DashboardScenarios.TC_05_PerformanceWidgetAsStudentTest" />
+    </classes>
+  </test>
+  <test name="PerformanceWidgetAsInstructorTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.DashboardScenarios.TC_06_PerformanceWidgetAsInstructorTest" />
+    </classes>
+  </test>
+  <test name="LPNInstructorUnitTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.DashboardScenarios.TC_07_LPNInstructorUnitTest" />
+    </classes>
+  </test>
+  <test name="LPNInstructorFolderTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.DashboardScenarios.TC_08_LPNInstructorFolderTest" />
+    </classes>
+  </test>
+  <test name="LPNInstructorActivityTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.DashboardScenarios.TC_09_LPNInstructorActivityTest" />
+    </classes>
+  </test>
+  <test name="DashboardCourseSettingsTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.DashboardScenarios.TC_10_DashboardCourseSettingsTest" />
+    </classes>
+  </test>   
+</suite>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="smoketestsuite">
+   <test name="FullBookTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.FullBookScenarios.FullBook_Inst_SmokeTest" />
+      <class  name="com.cengage.mindtap.tests.Mindapps.FullBookScenarios.FullBook_Stud_SmokeTest" />
+    </classes>
+  </test>
+  <test name="GlossaryAppTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.GlossaryScenarios.Glossary_Inst_Test"/>
+      <class name="com.cengage.mindtap.tests.Mindapps.GlossaryScenarios.Glossary_Stud_Test"/>
+    </classes>
+  </test>
+  <test name="MessageCenterTest">
+    <classes>
+        <class  name="com.cengage.mindtap.tests.Mindapps.MessageCenterScenarios.InstructorIsAbleToPostTheMessageTest"/>
+        <class  name="com.cengage.mindtap.tests.Mindapps.MessageCenterScenarios.StudentIsAbleToViewPostMessagesTest"/>
+    </classes>
+  </test>
+
+  <test name="MerriamWebsterDictionaryAppTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.MWDictionaryScenarios.MWDictionary_Inst_Test" />
+      <class  name="com.cengage.mindtap.tests.Mindapps.MWDictionaryScenarios.MWDictionary_Stud_Test" />
+    </classes>
+  </test>
+  <test name="SearchAppTest">
+     <classes>
+       <class name="com.cengage.mindtap.tests.Mindapps.SearchScenarios.Search_Inst_Test" />
+       <class name="com.cengage.mindtap.tests.Mindapps.SearchScenarios.Search_Stud_Test" />
+     </classes>
+  </test>
+  <test name="FlashCardTest">
+     <classes>
+       <class name="com.cengage.mindtap.tests.Mindapps.FlashCardScenarios.TC01_FlashCard_Inst_DockTest" />
+       <class name="com.cengage.mindtap.tests.Mindapps.FlashCardScenarios.TC02_FlashCard_Stud_DockTest" />
+     </classes>
+  </test>
+  <test name="kalturaAppSmokeTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.KalturaScenarios.Kaltura_Inst_SmokeTest" />
+    </classes>
+  </test>
+
+  <test name="YouSeeUTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.YouSeeUScenarios.TC02_InstAndAddDeleteRubricsInYSUTest"/>
+    </classes>
+  </test>
+</suite>
+

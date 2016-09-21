@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebVedioRegressionTest">
+   <test name="InstructorDeleteWebVideoActivityTest">
+<<<<<<< HEAD
+
+<suite name="WebVideoAppTest">
+   <test name="WebVideoAppTest">
+
+=======
+<suite name="WebVideoAppTest">
+   <test name="WebVideoAppTest">
+>>>>>>> a0bc270577201fceb3173dc55811945288920d20
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.WebVideoScenarios.TC01_InstructorDeleteWebVideoActivityTest" />
+    </classes>
+  </test>
+  <test name="StudentIsAbleToViewWebVideoActivityTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.WebVideoScenarios.TC02_StudentIsAbleToViewWebVideoActivityTest" />
+    </classes>
+  </test>
+  <test name="WebVideoAppStudentTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.WebVideoScenarios.TC03_WebVideoAppStudentTest" />
+    </classes>
+  </test>
+  <test name="WebVideoAppTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.WebVideoScenarios.TC04_WebVideoAppTest" />
+    </classes>
+  </test>
+  <test name="WebVideoInlineActivityTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.WebVideoScenarios.TC05_WebVideoInlineActivityTest" />
+    </classes>
+  </test>
+</suite>
+

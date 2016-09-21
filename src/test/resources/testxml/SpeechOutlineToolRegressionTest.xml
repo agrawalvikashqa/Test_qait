@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SpeechOutlineToolRegressionTest">
+   <test name="InstAddDistinctSpeechOutlineToolTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.SpeechOutlineToolScenarios.TC01_InstAddDistinctSpeechOutlineToolTest" />
+    </classes>
+  </test>
+  <test name="InstSpeechOutlineToolAppTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.SpeechOutlineToolScenarios.TC01_InstSpeechOutlineToolAppTest" />
+    </classes>
+  </test>
+  <test name="StudentPerformSpeechOutlineToolOperationTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.SpeechOutlineToolScenarios.TC03_StudentPerformSpeechOutlineToolOperationTest" />
+    </classes>
+  </test>
+  <test name="InstDelSpeechOutlineToolActivityTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.SpeechOutlineToolScenarios.TC04_InstDelSpeechOutlineToolActivityTest" />
+    </classes>
+  </test>
+ </suite>
+

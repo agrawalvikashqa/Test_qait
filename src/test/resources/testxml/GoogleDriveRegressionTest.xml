@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GoogleDriveRegressionTest">
+   <test name="InstAddDistinctGoogleDrive">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.GoogleDriveScenarios.TC01_InstAddDistinctGoogleDriveTest" />
+    </classes>
+  </test>
+  <test name="InstAddInlineGoogleDrive">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.GoogleDriveScenarios.TC02_InstAddInlineGoogleDriveTest" />
+    </classes>
+  </test>
+  <test name="StudentPerformGoogleDriveOperation">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.GoogleDriveScenarios.TC03_StudentPerformGoogleDriveOperationTest" />
+    </classes>
+  </test>
+  <test name="InstDelGoogleDriveActivity">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.GoogleDriveScenarios.TC04_InstDelGoogleDriveActivityTest" />
+    </classes>
+  </test>
+ </suite>
+

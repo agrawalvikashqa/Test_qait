@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="extendedUserRoleTest">
+   <test name="vendorRoleSmokeTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.UserRoles.VendorRoleScenerios.vendorRoleSmokeTest" />
+    </classes>
+  </test>
+  <test name="productionroleSmoketest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.UserRoles.ProductionRoleScenarios.productionroleSmoketest" />
+    </classes>
+  </test>
+  <test name="coursceCareRoleSmokeTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.UserRoles.courseCareRoleScenarios.courseCareRoleSmokeTest" />
+    </classes>
+  </test>
+  <test name="editorRoleSmokeTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.UserRoles.EditorRoleScenarios.editorRoleSmokeTest" />
+    </classes>
+  </test>
+  <test name="ReviewerRoleSmokeTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.UserRoles.ReviewerRoleScenarios.ReviewerRoleSmokeTest" />
+    </classes>
+  </test>
+</suite>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTest">
+   <test name="MerriamWebsterDictionaryAppTest">
+    <classes>
+
+      <class name="com.cengage.mindtap.tests.Mindapps.MWDictionaryScenarios.TC01_MerriamWebsterDictionaryAppTest" />
+
+      <class name="com.cengage.mindtap.tests.Mindapps.MWDictionaryScenarios.MWDictionary_Inst_Test" />
+
+    </classes>
+  </test>
+</suite>
+

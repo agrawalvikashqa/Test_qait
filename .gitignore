@@ -1,0 +1,8 @@
+target/generated-sources/
+target/surefire/
+target/screenshots/
+target/test-classes
+/target/
+target/test-classes/
+target/
+

@@ -1,0 +1,45 @@
+
+#Object Definitions
+========================================================================================================
+creationTypes                          xpath             //div[contains(@class, 'creationTypeLabel') and contains(text(), '${description}')]
+toggleArrow                            xpath             //button[@class='toggle']
+selectUnit                             xpath             //span[@class='ng-binding' and contains(text(), '${description}')]/../..//button[contains(text(), 'Toggle')]
+selectActivity                         xpath             //span[contains(text(),'${description}')]/..//input[contains(@type, 'radio')]
+publishActivity                        xpath             //button[contains(text(), 'Publish')]
+setDueDate                             xpath             //div/input[@id= 'endDate']
+nextMonth                              xpath             //span[contains(text(), 'Next')]
+dueMonth                               xpath             //span[@class= 'ui-datepicker-month']
+dueYear                                xpath             //span[@class= 'ui-datepicker-year']
+donebtn                                xpath             //button[contains(text(), 'Done')]
+dueDate                                xpath             //td[@data-handler='selectDay' and @title='${description}']
+activityTitle                          xpath             //label[@id='activity_title']/..//input[@id='name']
+currentScore                           xpath             //*[@id='lhs-score-display']
+playVideo                              xpath             //*[contains(@id,'display_button_play')]
+openProblemBtn                         xpath             //div[contains(text(), 'Open Problem')]
+inputQuestions                         xpath             //select[contains(@class, 'ci-input')]
+dropDown                               xpath             (//select[contains(@class, 'ci-input')])[${description}]
+getFrame_Content                       xpath             //*[contains(@id,'_NB_Main_IFrame') and contains(@title,'Assessments App')]
+submitAnswer                           xpath             //input[contains(@value, 'Check & Submit Answer')]
+rejoinders                             xpath             //nobr//span [contains(@class,'ci-rejoinder-detail ci-feedback')]
+rejoindersValue                        xpath             (//nobr//span [contains(@class,'ci-rejoinder-detail ci-feedback')])[${description}]
+popUpValue                             xpath              //div[@class='title popup-bar']//span[@class='title-text']
+feedBack_Title                         xpath              //div[contains(@class, 'ci-show-answer ci-feedback')]//p[@class='text']
+closePopUp                             xpath              //span[@class='close']
+closeProblem                           xpath              //div[contains(text(), 'Close Problem')]
+warningMessage                         xpath              //div[@id='warning']//div
+warningClose                           xpath              //button[@id='warning-doNotSubmit']
+navToAttempt                           xpath              //li[@id='nav-group-0']
+submitForTutored                       id                 nav-group-submit
+SubmitActivity                         xpath              //div[text()='Submit Activity for Grading']
+tutorMeBtn                             xpath              //button[contains(text(), 'Tutor Me')]
+verifyTutorMe                          xpath              //div[@class='mi-nav-label' and contains(text(), '1 of 3')]
+showSolution                           xpath              //button[contains(text(), 'Show Solution')]
+disableTutorMe                         xpath              //button[@class='mi-panel-button dead']
+currentScoreSubmit                     xpath              //h2[contains(text(), 'Submit for Grading')]/..//span[@class='current-percentage']
+switchUnit                             xpath              //a[contains(text(), '${description}')]
+lpnActivity_link                       xpath              //h3[contains(@class,'lpn_name') and contains(.,'${activity_title}')]/parent::*/parent::*/parent::*
+deleteActivity                         xpath              //a[@title='Delete']
+activityTitle_link                     xpath              (//h3[@class='lpn_name']/a[contains(.,'${activity_title}')])[1]
+activityDelete_icon                    xpath              //h3[contains(@class,'lpn_name') and contains(.,'${activity_title}')]/parent::*/parent::*/parent::*//a[@title='Delete']
+============================================================================================================================================================
+

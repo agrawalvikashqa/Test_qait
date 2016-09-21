@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTest">
+   <test name="InstAddEditNonMindtapActivit">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.NonMindtapScenarios.TC01_InstAddEditNonMindtapActivityTest" />
+    </classes>
+  </test>
+  <test name="VerifyInstErrorMessagesTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.NonMindtapScenarios.TC02_VerifyInstErrorMessagesTest" />
+    </classes>
+  </test>
+  <test name="StudentLaunchNonMindtapActivityTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.NonMindtapScenarios.TC03_StudentLaunchNonMindtapActivityTest" />
+    </classes>
+  </test>
+  <test name="InstDeleteNonMindtapActivityTes">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.NonMindtapScenarios.TC04_InstDeleteNonMindtapActivityTest" />
+    </classes>
+  </test>
+</suite>
+

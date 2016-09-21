@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FlashCardRegressionTest">
+   <test name="FlashCardRegAPPDockTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.FlashCardScenarios.TC01_FlashCard_Inst_DockTest" />
+    </classes>
+  </test>
+  <test name="FalshCardRegLPNTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.FlashCardScenarios.TC03_FlashCardRegLPNTest" />
+    </classes>
+  </test>
+  <test name="VerifyFlashCardFromStudent">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.FlashCardScenarios.TC05_VerifyFlashCardActivityFromStudent" />
+    </classes>
+  </test>
+  <test name="FlashCardLPNDeleteTests">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.FlashCardScenarios.TC04_FlashCardLPNDeleteTest" />
+    </classes>
+  </test>
+</suite>
+

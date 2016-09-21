@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="smoketestsuite">
+   <test name="ATPAppTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.ATPScenarios.TC01_CreateATestInATPAppTest" />
+    </classes>
+  </test>
+  <test name="CreateUpdateEvernote">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.EvernoteScenarios.TC01_InstructorCreateUpdateEvernote"/>
+    </classes>
+  </test>
+  <test name="FlashCardRegAPPDockTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.FlashCardScenarios.TC01_FlashCard_Inst_DockTest" />
+    </classes>
+  </test>
+  <test name="GoogleDriveTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.GoogleDriveScenarios.TC01_InstAddDistinctGoogleDriveTest" />
+    </classes>
+  </test>
+  <test name="PerformanceFilterTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.GradeBookScenarios.TC01_OverallPerformanceFilterTest" />
+    </classes>
+  </test>
+  <test name="InsiteSmokeTest">
+    <classes>
+      <exclude  name="com.cengage.mindtap.tests.Mindapps.InsiteAppSenarios.TC01_InsiteSmokeTest"></exclude>
+    </classes>
+  </test>
+  <test name="KalturaActivityTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.KalturaScenarios.TC01_AddDistinctKalturaActivityTest"/>
+    </classes>
+  </test>
+   <test name="LearningLabsActivity">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.LearningLabsScenarios.TC01_AddEditLearningLabsActivity"/>
+    </classes>
+  </test>
+   <test name="NonMindtapActivityTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.NonMindtapScenarios.TC01_InstAddEditNonMindtapActivityTest"/>
+    </classes>
+  </test>
+   <test name="QuestiaAppTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.QuestiaAppScenarios.TC01_VerifyQuestiaAppTest"/>
+    </classes>
+  </test>
+   <test name="ReadSpeakerAppTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.ReadSpeakerScenario.TC01_ReadSpeakerAppTest"/>
+    </classes>
+  </test>
+  <test name="RssFeedAppTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.RssFeedScenarios.TC01_RssFeedAppTest"/>
+    </classes>
+  </test>
+  <test name="SearchAppTest">
+    <classes>
+
+      <class  name="com.cengage.mindtap.tests.Mindapps.SearchScenarios.TC01_SearchAppTest"/>
+
+      <class  name="com.cengage.mindtap.tests.Mindapps.SearchScenarios.Search_Stud_Test"/>
+
+    </classes>
+  </test>
+  <test name="StudyHubApp">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.StudyHub.TC_01_StudyHubAppInstructorSmokeTest"/>
+    </classes>
+  </test>
+  <test name="WebVideoAppTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.WebVideoScenarios.TC01_WebVideoAppTest"/>
+    </classes>
+  </test>
+  <test name="SVRAppTest">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.Mindapps.speechvideolibraryapptestcases.TC01_InstSVRAppTest"/>
+    </classes>
+  </test>
+  <test name="PrintReaderScenarios">
+    <classes>
+      <class  name="com.cengage.mindtap.tests.ReaderScenarios.TC_05_InstructorPrintReaderScenarios"/>
+    </classes>
+  </test>
+</suite>
+

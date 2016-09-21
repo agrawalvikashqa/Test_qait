@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UserRolesRegressionTest">
+   <test name="AdminRoleScenarios">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.UserRoleScenarios.AdminRoleScenarios.TC01_CreateMasterAndVerifyOnDashboardTest"/>
+    </classes>
+  </test>
+   <test name="EditorRoleScenarios">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.UserRoleScenarios.EditorRoleScenarios.CreateMasterAndVerifyOnDashboardTest"/>
+    </classes>
+  </test>
+  <test name="ProductionRoleScenarios">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.UserRoleScenarios.ProductionRoleScenarios.CreateMasterAndVerifyOnDashboardTest"/>
+    </classes>
+  </test>
+  <test name="ReviewerRoleScenarios">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.UserRoleScenarios.ReviewerRoleScenarios.CreateMasterAndVerifyOnDashboardTest"/>
+    </classes>
+  </test>
+  <test name="VendorRoleScenerios">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.UserRoleScenarios.VendorRoleScenerios.CreateMasterAndVerifyOnDashboardTest"/>
+    </classes>
+  </test>
+  <test name="courseCareRoleScenarios">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.UserRoleScenarios.courseCareRoleScenarios.CreateMasterAndVerifyOnDashboardTest"/>
+    </classes>
+  </test>
+</suite>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTest">
+   <test name="ChemistryInstructorFlowSmokeTest">
+    <classes>
+      <class name="com.cengage.mtx.tests.Chemistry.SmokeTest.TC01_InstructorFlowSmokeTestChemistry" />
+    </classes>
+  </test>
+  <test name="ChemistryStudentFlowSmokeTest">
+    <classes>
+      <class name="com.cengage.mtx.tests.Chemistry.SmokeTest.TC02_StudentFlowSmokeTestChemistry" />
+    </classes>
+  </test>
+</suite>
+

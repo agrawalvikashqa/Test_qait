@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GenericAppDockRegressionTest">
+   <test name="GenericAppDockAdminTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.GenericAppDock.TC_01_GenericAppDockAdminTest" />
+    </classes>
+  </test>
+  <test name="GenericAppDockInstructorTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.GenericAppDock.TC_02_GenericAppDockInstructorTest" />
+    </classes>
+  </test>
+  <test name="GenericAppDockStudentTest">
+    <classes>
+      <class name="com.cengage.mindtap.tests.Mindapps.GenericAppDock.TC_03GenericAppDockStudentTest" />
+    </classes>
+  </test>
+</suite>
+
